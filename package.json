@@ -1,0 +1,9 @@
+{
+  "name": "nova-roleplay-discord-bot",
+  "version": "1.0.0",
+  "description": "Nova RolePlay MTA Discord community bot",
+  "main": "bot.js",
+  "scripts": {"start": "node bot.js", "deploy": "node deploy-commands.js"},
+  "engines": {"node": ">=20.0.0"},
+  "dependencies": {"discord.js": "^14.21.0", "dotenv": "^16.6.1", "gamedig": "^5.3.1"}
+}
